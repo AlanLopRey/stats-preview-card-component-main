@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="icon"
       type="image/png"
@@ -15,14 +15,25 @@
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
+    <!-- main container -->
     <main class="main">
+      <!-- image -->
+      <picture class="pic__image">
+        <picture class="pic__image--active"></picture>
+      </picture>
+      <!-- section with the header -->
       <section class="section">
-        <h1 class="section__h1">Get insights that help your business grow.</h1>
+        <!-- header with the paragraph -->
+        <h1 class="section__h1">
+          Get <span class="section__span">insights</span> that help your
+          business grow.
+        </h1>
         <p class="section__p">
           Discover the benefits of data analytics and make better decisions
           regarding revenue, customer experience, and overall efficiency.
         </p>
       </section>
+      <!-- div with the stats -->
       <div class="div">
         <div class="div__stats">
           10k+ <span class="div__stats--span">companies</span>
