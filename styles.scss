@@ -124,15 +124,15 @@ body {
 }
 
 //! DESKTOP DESING
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1440px) {
   body {
     width: 100vw;
     height: 100vh;
   }
   .main {
-    width: 100em;
+    width: 110em;
     height: 45em;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 29em 29em 26em 26em;
     grid-template-rows: repeat(3, 1fr);
     grid-auto-flow: row dense;
   }
@@ -148,6 +148,17 @@ body {
   .section {
     grid-row: 1/3;
     grid-column: 1/3;
+    text-align: left;
+    margin-left: 4.5em;
+    margin-right: 5.5em;
+    &__h1 {
+      font-size: 3.2rem;
+      margin-top: 1em;
+    }
+    &__p {
+      margin-right: 7.5em;
+      font-size: 1.3rem;
+    }
   }
   .div {
     display: flex;
@@ -156,9 +167,12 @@ body {
     align-items: center;
     grid-row: 3/4;
     grid-column: 1/3;
+    padding-left: 3.5em;
+    padding-right: 12.5em;
     &__stats {
       display: flex;
       flex-direction: column;
+      align-items: flex-start;
     }
   }
 }
