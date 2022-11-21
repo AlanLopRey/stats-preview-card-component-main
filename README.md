@@ -34,8 +34,9 @@ Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Github repository](https://github.com/AlanLopRey/stats-preview-card-component-main)
+
+- [Live Site](https://alanloprey.github.io/stats-preview-card-component-main/)
 
 ## My process
 
