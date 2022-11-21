@@ -51,7 +51,7 @@ body {
   // align-content: space-between;
 }
 .pic__image {
-  background-image: url(/images/image-header-mobile.jpg);
+  background-image: url(../images/image-header-mobile.jpg);
   width: 32.5em;
   height: 24.1em;
   background-size: cover;
@@ -133,7 +133,7 @@ body {
     grid-auto-flow: row dense;
   }
   .pic__image {
-    background-image: url(/images/image-header-desktop.jpg);
+    background-image: url(../images/image-header-desktop.jpg);
     width: 54.7em;
     height: 45em;
     background-size: cover;
